@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+    <fontFamily name="MyFontCollection">
+        <normal><![CDATA[fonts/DejaVuSans.ttf]]></normal>
+        <bold><![CDATA[fonts/DejaVuSans-Bold.ttf]]></bold>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+        <exportFonts/>
+    </fontFamily>
+</fontFamilies>

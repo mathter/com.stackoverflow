@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.mathter.java.notes</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>jasperreports</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>2.5.14</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-snapshots</id>
+            <url>https://repo.spring.io/snapshot</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <url>https://repo.spring.io/milestone</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+</project>
